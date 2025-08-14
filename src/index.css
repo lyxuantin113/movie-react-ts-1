@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+    --color-bg-light: #fff;
+    --color-bg-dark: #141417;
+    --color-title-light: #141417;
+    --color-title-dark: #fff;
+}
